@@ -1,0 +1,61 @@
+/*Algemene opmaak: de opmaak die geldig is voor alles op mijn webpagina.*/
+body{
+    background-image: url(../images/achtergrond.jpg);
+    /*het standaardlettertype is calibri (of eventueel arial)*/
+    background-repeat: no-repeat;
+    font-family: Calibri, Arial, sans-serif;
+    /*de standaard puntgrootte is 16 px*/
+    font-size: 16px;
+    /*de tekst word stanaard uitgevuld*/
+    text-align: justify;
+}
+#container{
+    background-color: white;
+    margin: 10px auto;
+    width: 100%;
+    /* De container mag maximaal een breedte hebben van 1 200px.*/
+    max-width: 1200px;
+}
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+nav{
+    border-bottom: rgb(201,201,201) solid 1px;
+    margin-top: 10px;
+}
+.item{
+    display:inline;
+    border: solid 1px rgb(204,204,204);
+    border-radius: 5px 5px 0px 0px;
+    font-size: 21x;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+.item a{
+    text-decoration: none;
+}
+aside{
+    width: 25%;
+}
+main{
+    width: 70%;
+    float: right;
+}
+h1{
+    color: coral;
+    width: 80%;
+    text-align: center;
+}
+aside p{
+    background-color: coral;
+    width: 80%;
+    text-align: center;
+}
+aside table{
+    background-color: coral;
+    width: 80%;
+    text-align: center;
+}
